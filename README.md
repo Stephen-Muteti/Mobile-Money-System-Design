@@ -12,9 +12,6 @@ The physical sites should be situated in different regions to further strengthen
 2. Switchover
 3. The selection of the master DB Node within a cluster (I will delve into this later)
 
-![image](https://github.com/user-attachments/assets/0d9d41ac-7c7d-4d88-ac9e-bbea80eb695a)
-
-
 **The Network Setup**
 The tenant network is partitioned into production and test environments each with similar structural zones: MGT Zone, DATA Zone, APP Zone & DMZ Zone. The Zones are logically 
 separated for security enhancement and reduce complexity in managing any connections. The production environment is the one that has the running system while the test environment houses the infrastructure meant for user acceptance testing and training.
